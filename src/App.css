@@ -53,12 +53,17 @@ span{
   justify-content: space-between;
 }
 
+.partners{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
 footer{
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  flex-grow: 10;
 
   text-align: center;
   font-family: 'Bebas neue', cursive;
