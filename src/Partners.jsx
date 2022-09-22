@@ -7,7 +7,7 @@ import hobbies from "./img/hobbies.png";
 
 function Partners() {
 	return (
-		<div className='wrapper'>
+		<div className='wrapper-partners'>
 			<img src={wynwood} alt='wynwood park' />
 			<img src={hobbies} alt='hobbies place' />
 			<img src={bubbleTea} alt='bubble tea panda' />

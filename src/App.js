@@ -4,14 +4,18 @@ import Partners from "./Partners";
 import logo from "./img/logo.png";
 
 function App() {
-	let LinksList = [
-		"Compra tu entrada",
-		"ubicacion del evento",
-		"galeria harajuku",
-		"FAQS",
+	let linksList = [
+		{ text: "Compra tu entrada", link: "test.com" },
+		{
+			text: "ubicacion del evento",
+			link: "https://maps.app.goo.gl/VcLNcYkLXAn4ENjD9",
+		},
+		{
+			text: "galeria harajuku",
+			link: "https://drive.google.com/drive/folders/1FM9pUH0csYEtdZYMnVSrnoUxl0MmDheD",
+		},
+		{ text: "FAQS", link: "test.com" },
 	];
-
-	let links = LinksList.map((link) => <LinkButton />);
 
 	return (
 		<div className='App'>
@@ -21,7 +25,9 @@ function App() {
 					Harajuku Tranding
 					<span>Edicion Aniversario</span>
 				</h1>
-				<div className='links'>{links}</div>
+				<div className='links'>
+					<LinkButton linksList={linksList} />
+				</div>
 				<Partners />
 				<footer>
 					<div className='date'>22 de Octubre del 2022</div>

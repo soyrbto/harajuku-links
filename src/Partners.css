@@ -1,5 +1,20 @@
 
 
-.wrapper{
+.wrapper-partners{
     display: flex;
+    flex-wrap: wrap;
+
+    
 }
+
+.wrapper-partners img{
+    width: clamp(60px, 16vw, 120px);
+}
+
+.wrapper-partners img:not(:last-child) {
+    margin-right: clamp(9px, 2.4vw, 42px);
+}
+
+
+
+
