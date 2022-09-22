@@ -39,3 +39,20 @@ span{
   display: block;
   color: #242728;
 }
+
+
+.links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer{
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Bebas neue', cursive;
+}
+
+.date{
+  margin-bottom: 9px;
+}
