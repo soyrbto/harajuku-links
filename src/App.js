@@ -5,7 +5,10 @@ import logo from "./img/logo.png";
 
 function App() {
 	let linksList = [
-		{ text: "Compra tu entrada", link: "test.com" },
+		{
+			text: "Compra tu entrada",
+			link: "https://www.instagram.com/p/CfkUpCHOSTb/?igshid=MTA0ZTI1NzA=",
+		},
 		{
 			text: "ubicacion del evento",
 			link: "https://maps.app.goo.gl/VcLNcYkLXAn4ENjD9",
@@ -14,7 +17,10 @@ function App() {
 			text: "galeria harajuku",
 			link: "https://drive.google.com/drive/folders/1FM9pUH0csYEtdZYMnVSrnoUxl0MmDheD",
 		},
-		{ text: "FAQS", link: "test.com" },
+		{
+			text: "FAQS",
+			link: "https://www.instagram.com/p/CgM4RI3uSn7/?igshid=YWZlMWU5YjI=",
+		},
 	];
 
 	return (
