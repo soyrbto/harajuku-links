@@ -56,7 +56,6 @@ span{
 footer{
   padding-bottom: 30px;
   display: flex;
-  justify-content: end;
   flex-direction: column;
   flex-grow: 10;
 
