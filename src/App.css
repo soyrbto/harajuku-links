@@ -57,6 +57,7 @@ footer{
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   flex-grow: 10;
 
   text-align: center;
