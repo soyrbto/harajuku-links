@@ -1,7 +1,7 @@
 import "./LinkButton.css";
 import star from "./img/stars.png";
 
-const LinkButton = (props) => {
+function LinkButton(props) {
 	let links = props.linksList.map((info) => (
 		// aqui va un wrapper para poder definir cual es el ultimo boton
 		<div className='wrapper'>
@@ -12,6 +12,6 @@ const LinkButton = (props) => {
 		</div>
 	));
 	return links;
-};
+}
 
 export default LinkButton;
